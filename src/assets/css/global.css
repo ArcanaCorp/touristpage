@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: var(--font-family-primary);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-family-primary);
+    background-color: var(--color-background);
+}
+
+input, select, textarea {
+    outline: none;
+    border: none;
+}
+
+ul, li, ol {
+    list-style: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: none;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+}
+
+a {
+    text-decoration: none;
+}

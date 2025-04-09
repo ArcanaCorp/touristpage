@@ -1,0 +1,72 @@
+:root {
+    /* Colores base */
+    --color-primary: #6738E6;
+    --color-secondary: #052067;
+    --color-light: #FFFFFF;
+    --color-dark: #181818;
+    --color-gray: #888888;
+    --color-background: #F2F0F5;
+
+    /* Colores de estado */
+    --color-info: #3498db;
+    --color-success: #2ecc71;
+    --color-warning: #f39c12;
+    --color-danger: #e74c3c;
+
+    /* Gradientes (opcional) */
+    --gradient-primary: linear-gradient(45deg, #6738E6, #052067);
+    --gradient-success: linear-gradient(45deg, #2ecc71, #27ae60);
+
+    /* Tamaños de tipografía */
+    --font-size-xs: 12px;
+    --font-size-sm: 14px;
+    --font-size-base: 16px;
+    --font-size-lg: 18px;
+    --font-size-xl: 24px;
+    --font-size-xxl: 32px;
+
+    /* Pesos de tipografía */
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
+    /* Fuentes */
+    --font-family-primary: 'Montserrat', sans-serif;
+    --font-family-secondary: 'Roboto', sans-serif;
+
+    /* Espaciados / Padding / Margin */
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 48px;
+
+    /* Bordes */
+    --border-radius-sm: 4px;
+    --border-radius-md: 8px;
+    --border-radius-lg: 16px;
+    --border-radius-pill: 50px;
+    --border-radius-circle: 50%;
+
+    /* Sombras */
+    --box-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
+    --box-shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --box-shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.15);
+    --box-shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.2);
+
+    /* Transiciones */
+    --transition-fast: 0.2s ease-in-out;
+    --transition-normal: 0.4s ease-in-out;
+    --transition-slow: 0.6s ease-in-out;
+
+    /* Opacidad */
+    --opacity-disabled: 0.6;
+    --opacity-hover: 0.8;
+
+    /* Z-index */
+    --z-index-dropdown: 1000;
+    --z-index-modal: 1050;
+    --z-index-tooltip: 1100;
+}
