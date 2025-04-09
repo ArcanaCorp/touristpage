@@ -21,14 +21,14 @@ Este proyecto es la página web oficial de **Nación Xauxa**, una empresa dedica
 - **React Router**: Para la navegación entre las distintas páginas de la web.
 - **CSS3** / **Sass**: Para la estilización de la página.
 - **Leaflet.js** (opcional): Si se implementa un mapa interactivo.
-- **Axios** (opcional): Para hacer solicitudes HTTP, si es necesario para la API de reservas o blog.
+- **Fetch** (opcional): Para hacer solicitudes HTTP, si es necesario para la API de reservas o blog.
 
 ## Instalación
 
 1. Clonar el repositorio:
 
     ```bash
-    git clone https://github.com/tu-usuario/nacion-xauxa.git
+    git clone https://github.com/ArcanaCorp/touristpage.git
     cd nacion-xauxa
     npm install
-    npm install
+    npm start
