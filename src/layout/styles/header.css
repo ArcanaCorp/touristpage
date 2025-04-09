@@ -1,0 +1,96 @@
+.__header {
+    width: 100%;
+    height: 60px;
+    background-color: var(--color-light);
+    border-bottom: 1px solid var(--color-secondary-gray);
+}
+
+.__header .__box {
+    width: 90%;
+    margin: auto;
+    height: inherit;
+}
+
+.__header .__box .__col_nav {
+    gap: 2rem;
+}
+
+.__header .__box .__col_nav .__nav .__nav_list .__nav_item .__nav_a {
+    gap: .5rem;
+    color: var(--color-gray);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-normal);
+    padding: var(--spacing-sm) var(--spacing-md);
+}
+
+.__header .__box .__col_nav .__nav .__nav_list .__nav_item .__nav_a .tabler-icon {
+    width: 16px;
+    height: 16px;
+    stroke: var(--color-gray);
+}
+
+.__header .__box .__col_nav .__nav .__nav_list .__nav_item .__nav_a:hover {
+    color: var(--color-dark);
+    transition: var(--transition-normal);
+}
+.__header .__box .__col_nav .__nav .__nav_list .__nav_item .__nav_a:hover .tabler-icon {
+    stroke: var(--color-dark);
+}
+
+.__header .__box .__col_nav .__nav .__nav_list .__nav_item .__nav_a--active {
+    color: var(--color-dark);
+    font-weight: var(--font-weight-medium);
+}
+
+.__header .__box .__col_nav .__nav .__nav_list .__nav_item {
+    position: relative;
+}
+
+.__header .__box .__col_nav .__nav .__nav_list .__nav_item .__subnav {
+    display: none;
+    position: absolute;
+    right: 0;
+    padding: var(--spacing-md);
+    box-shadow: var(--box-shadow-md);
+    background-color: var(--color-light);
+    border-radius: var(--border-radius-md);
+}
+
+.__header .__box .__col_nav .__nav .__nav_list .__nav_item:hover .__subnav {
+    display: block;
+    min-width: 150px;
+}
+
+.__header .__box .__col_nav .__nav .__nav_list .__nav_item .__subnav .__subnav_item .__subnav_a {
+    display: flex;
+    color: var(--color-gray);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-normal);
+    padding: var(--spacing-sm) var(--spacing-md);
+}
+
+.__header .__box .__col_nav .__nav .__nav_list .__nav_item .__subnav .__subnav_item .__subnav_a:hover {
+    color: var(--color-dark);
+    font-weight: var(--font-weight-medium);
+}
+
+.__header .__box .__col_cta .__nav_list .__nav_item a {
+    gap: .5rem;
+    color: var(--color-gray);
+    font-size: var(--font-size-sm);
+}
+
+.__header .__box .__col_cta .__nav_list .__nav_item a:hover {
+    color: var(--color-dark);
+    font-weight: var(--font-weight-medium);
+}
+
+.__header .__box .__col_cta .__nav_list .__nav_item a .tabler-icon {
+    width: 20px;
+    height: 20px;
+    stroke: var(--color-gray);
+}
+
+.__header .__box .__col_cta .__nav_list .__nav_item a:hover .tabler-icon {
+    stroke: var(--color-dark);
+}

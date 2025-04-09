@@ -1,0 +1,36 @@
+.__display_flex {
+    display: flex;
+}
+
+.__aling-center {
+    align-items: center;
+}
+
+.__justify_between {
+    justify-content: space-between;
+}
+
+.__gap_1 {
+    gap: 1rem;
+}
+.__gap_2 {
+    gap: 2rem;
+}
+.__gap_3 {
+    gap: 3rem;
+}
+
+/* LINKS BUTTON */
+
+.__a_btn {
+    display: grid;
+    height: 40px;
+    place-items: center;
+    padding: 0rem var(--spacing-md);
+    border-radius: var(--border-radius-pill);
+}
+
+.__a_btn_primary {
+    color: var(--color-light);
+    background-image: var(--gradient-primary);
+}

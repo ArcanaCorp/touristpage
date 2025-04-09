@@ -40,3 +40,8 @@ img {
 a {
     text-decoration: none;
 }
+
+.tabler-icon {
+    stroke-width: 1.5;
+    stroke: var(--color-dark);
+}
