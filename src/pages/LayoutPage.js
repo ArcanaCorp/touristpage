@@ -14,7 +14,6 @@ export default function LayoutPage () {
             </main>
 
             <h1>Footer</h1>
-
         </>
 
     )

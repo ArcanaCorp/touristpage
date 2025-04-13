@@ -1,9 +1,8 @@
-import React from 'react'
-
+import React from 'react';
+import Hero from '../layout/Hero';
 export default function HomePage() {
     return (
-        <div>
-            <h1>Home Page</h1>
-        </div>
-    )
+        <Hero/>
+
+    );
 }
