@@ -29,12 +29,11 @@ export default function Gallery() {
 
     return (
         <section className="gallery">
-            <p className="gallery__label">Our Gallery</p>
-            <h2 className="gallery__title">Memorable Images From Dreamy Journeys</h2>
+            <p className="gallery__label">Nuestra galeria</p>
+            <h2 className="gallery__title">Imagenes memorables de nuestros viajes del sueño</h2>
             <p className="gallery__description">
-                What matters most to us is your satisfaction with our services and travel experiences.
-                In this section, you can view some of the beautiful moments captured by travelers who
-                have journeyed with Royagash.
+                Lo más importante para nosotros es su satisfacción con nuestros servicios y experiencias de viaje.
+                En esta sección podra ver algunos de los momentos inolvidables capturadas por viajeros que han viajado con Royagash.
             </p>
             <div className="gallery__grid">
                 {imageOrder.map((img, index) => (
