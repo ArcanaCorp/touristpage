@@ -6,7 +6,6 @@ import img3 from '../assets/img/laguna-de-paca.jpg';
 import img4 from '../assets/img/AEREA_01.jpg';
 import mundoimg from '../assets/img/xd3.png';
 import { FiArrowUpRight } from "react-icons/fi";
-import { motion } from "motion/react";
 
 export default function Hero() {
   return (
@@ -31,7 +30,7 @@ export default function Hero() {
         </div>
 
         <div className="__hero_img">
-          <motion.div
+          <div
             className="img-container vertical-img img_1_container"
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.4, ease: "easeInOut" }}
@@ -39,14 +38,14 @@ export default function Hero() {
             <img src={img2} alt="Ciudad de Juaja" className="img_1" loading="lazy"/>
             <div className="text-overlay3">Ciudad de Juaja</div>
             <FiArrowUpRight className="icon1" />
-          </motion.div>
+          </div>
 
           <div className="img-container full-width xd_img">
             <img src={img} alt="Viajera con equipaje" className="img" loading="lazy"/>
           </div>
 
           <div>
-            <motion.div
+            <div
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.4, ease: "easeInOut" }}
               className="img-container"
@@ -54,9 +53,9 @@ export default function Hero() {
               <img src={img3} alt="Laguna de Paca" className="img_3" loading="lazy"/>
               <div className="text-overlay">Laguna de Paca</div>
               <FiArrowUpRight className="icon2" />
-            </motion.div>
+            </div>
 
-            <motion.div
+            <div
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.4, ease: "easeInOut" }}
               className="img-container"
@@ -64,7 +63,7 @@ export default function Hero() {
               <img src={img4} alt="Vista aérea de Jauja" className="img_4" loading="lazy"/>
               <div className="text-overlay2">Vista Aérea de Jauja</div>
               <FiArrowUpRight className="icon3" />
-            </motion.div>
+            </div>
           </div>
         </div>
       </section>
