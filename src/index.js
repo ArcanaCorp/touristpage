@@ -9,6 +9,8 @@ import './assets/css/constants.css'
 import HomePage from './pages/HomePage';
 import LayoutPage from './pages/LayoutPage';
 import TourPage from './pages/TourPage';
+import Experiencia from './layout/Experiencia';
+
 
 const router = createBrowserRouter([
     {
@@ -30,7 +32,12 @@ const router = createBrowserRouter([
             {
                 path: '/tours/:slug',
                 element: <TourPage/>
+            },
+            {
+                path: '/experiencia',
+                element: <Experiencia/>
             }
+            
         ]
     }
 ])

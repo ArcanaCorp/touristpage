@@ -49,6 +49,10 @@ export default function Header () {
                                     </li>
                                 </ul>
                             </li>
+                            <li className='__nav_item'>
+                            <Link to={'/experiencia'} viewTransition className={`__nav_a ${location.pathname === '/experiencia' ? '__nav_a--active' : ''}`}>Experiencia</Link>
+                            </li>
+
                         </ul>
                     </nav>
 
