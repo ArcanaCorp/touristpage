@@ -9,9 +9,10 @@ import img6 from '../assets/img/img6.avif';
 import img7 from '../assets/img/img7.jpg';
 import img8 from '../assets/img/img1.jpg';
 
-const images = [img1, img2, img4, img5, img6, img7, img8];
+//const images = [img1, img2, img4, img5, img6, img7, img8];
 
 export default function Gallery() {
+
     const [imageOrder, setImageOrder] = useState([img1, img2, img4, img5, img6, img7, img8]);
 
     useEffect(() => {

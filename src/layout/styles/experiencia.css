@@ -10,7 +10,7 @@
   }
   
   .experiencia-header h4 {
-    color: #f4c542;
+    color: var(--color-primary);
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -61,7 +61,7 @@
   
   .experiencia-content h3 {
     font-size: 1.3rem;
-    color: #f4c542;
+    color: var(--color-primary);
     margin-bottom: 0.5rem;
   }
   
